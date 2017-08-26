@@ -88,3 +88,15 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+from scrapy.exporters import JsonLinesItemExporter  
+class CustomJsonLinesItemExporter(JsonLinesItemExporter):  
+    def __init__(self, file, **kwargs):  
+        super(CustomJsonLinesItemExporter, self).__init__(file, ensure_ascii=False, **kwargs)
+
+#这里只需要将超类的ensure_ascii属性设置为False即可
+#同时要在setting文件中启用新的Exporter类
+
+FEED_EXPORTERS = {  
+    'json': 'tutorial.settings.CustomJsonLinesItemExporter',  
+} 
