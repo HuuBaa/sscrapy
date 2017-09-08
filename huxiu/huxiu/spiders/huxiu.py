@@ -2,18 +2,24 @@
 
 from ..items import HuxiuItem
 import scrapy
+from scrapy.contrib.spiders import CrawlSpider, Rule
+from scrapy.contrib.linkextractors import LinkExtractor
 
-class HuxiuSpider(scrapy.Spider):
+class HuxiuSpider(CrawlSpider):
     name='huxiu'
     allowed_domains=['huxiu.com']
     start_urls=['https://www.huxiu.com/']
 
-    def parse(self,response):
-        for sel in response.css('.mod-info-flow .mod-art .mob-ctt'):
-            item=HuxiuItem()          
-            link=sel.css('h2 a::attr(href)')[0].extract()
-            item['link']=response.urljoin(link)
-            yield scrapy.Request(item['link'],callback=self.parse_article)
+    rules=[
+            Rule(LinkExtractor(allow=(r'/article/\d+\.html',)),callback='parse_article')
+    ]
+
+    # def parse(self,response):
+    #     for sel in response.css('.mod-info-flow .mod-art .mob-ctt'):
+    #         item=HuxiuItem()          
+    #         link=sel.css('h2 a::attr(href)')[0].extract()
+    #         item['link']=response.urljoin(link)
+    #         yield scrapy.Request(item['link'],callback=self.parse_article)
 
     def parse_article(self,response):
         item=HuxiuItem()

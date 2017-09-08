@@ -17,7 +17,6 @@ class CsdnSpider(CrawlSpider):
             Rule(LinkExtractor(allow=r'/qq_35037977/article/details/\d+',restrict_css='.link_title'),callback='parse_csdn')
     ]
 
-
     def parse_csdn(self,response):
         l=ItemLoader(item=CsdnItem(),response=response)
         l.add_css('title','#article_details .link_title a::text')

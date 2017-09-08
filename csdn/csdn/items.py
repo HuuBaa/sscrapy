@@ -7,10 +7,11 @@
 
 import scrapy
 
+from scrapy.loader.processors import Join, MapCompose, TakeFirst
 
 class CsdnItem(scrapy.Item):
     # define the fields for your item here like:
-    title = scrapy.Field()
-    link=scrapy.Field()
-    posttime=scrapy.Field()
-    views=scrapy.Field()
+    title = scrapy.Field(output_processor=TakeFirst())
+    link=scrapy.Field(output_processor=TakeFirst())
+    posttime=scrapy.Field(output_processor=TakeFirst())
+    views=scrapy.Field(output_processor=TakeFirst())
