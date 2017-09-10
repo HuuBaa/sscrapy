@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for jiandan project
+# Scrapy settings for douban_ajax project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'jiandan'
+BOT_NAME = 'douban_ajax'
 
-SPIDER_MODULES = ['jiandan.spiders']
-NEWSPIDER_MODULE = 'jiandan.spiders'
+SPIDER_MODULES = ['douban_ajax.spiders']
+NEWSPIDER_MODULE = 'douban_ajax.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'jiandan (+http://www.yourdomain.com)'
+#USER_AGENT = 'douban_ajax (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'jiandan.middlewares.JiandanSpiderMiddleware': 543,
+#    'douban_ajax.middlewares.DoubanAjaxSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'jiandan.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'douban_ajax.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'jiandan.pipelines.JiandanPipeline': 300,
+#    'douban_ajax.pipelines.DoubanAjaxPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -88,22 +88,14 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+from scrapy.exporters import JsonLinesItemExporter  
+class CustomJsonLinesItemExporter(JsonLinesItemExporter):  
+    def __init__(self, file, **kwargs):  
+        super(CustomJsonLinesItemExporter, self).__init__(file, ensure_ascii=False, **kwargs)
 
-# 使用图片管道
-ITEM_PIPELINES = {
-                  'jiandan.pipelines.JiandanPipeline': 1,
-                 }
+#这里只需要将超类的ensure_ascii属性设置为False即可
+#同时要在setting文件中启用新的Exporter类
 
-IMAGES_STORE = 'f:/jiandan' # 图片存储路径
-
-# 30 days of delay for images expiration
-IMAGES_EXPIRES = 30
-# 图片缩略图
-IMAGES_THUMBS = {
-    'small': (50, 50),
-    'big': (270, 270),
-}
-# 图片过滤器，最小高度和宽度
-IMAGES_MIN_HEIGHT = 110
-IMAGES_MIN_WIDTH = 110
-DOWNLOAD_DELAY = 0.25
+FEED_EXPORTERS = {  
+    'json': 'douban_ajax.settings.CustomJsonLinesItemExporter',  
+} 

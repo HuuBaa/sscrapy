@@ -8,10 +8,10 @@ from scrapy.contrib.linkextractors import LinkExtractor
 class HuxiuSpider(CrawlSpider):
     name='huxiu'
     allowed_domains=['huxiu.com']
-    start_urls=['https://www.huxiu.com/']
+    start_urls = ['https://www.huxiu.com/']
 
-    rules=[
-            Rule(LinkExtractor(allow=(r'/article/\d+\.html',)),callback='parse_article')
+    rules = [
+            Rule(LinkExtractor(allow=(r'/article/\d+\.html', )), callback='parse_article')
     ]
 
     # def parse(self,response):

@@ -7,7 +7,7 @@ from scrapy.contrib.linkextractors import LinkExtractor
 from ..items import CsdnItem
 from scrapy.loader import ItemLoader
 
-nextpage=u'x下一页'
+nextpage=u'下一页'
 class CsdnSpider(CrawlSpider):
     name='csdn'
     allowed_domains=['csdn.net']
