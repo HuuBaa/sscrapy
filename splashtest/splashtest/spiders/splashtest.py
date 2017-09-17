@@ -22,3 +22,7 @@ class JsSpider(scrapy.Spider):
         newer = response.xpath('//a[@class="user_profit_lk"]/text()').extract_first()
         logging.info(u"find：%s" % newer)
         logging.info(u'---------------success----------------')
+
+
+
+       

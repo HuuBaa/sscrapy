@@ -100,3 +100,5 @@ class CustomJsonLinesItemExporter(JsonLinesItemExporter):
 FEED_EXPORTERS = {  
     'json': 'csdn.settings.CustomJsonLinesItemExporter',  
 } 
+
+DOWNLOAD_DELAY = 0.2

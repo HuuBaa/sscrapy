@@ -23,6 +23,6 @@ class CsdnSpider(CrawlSpider):
         l.add_value('link',response.url)
         l.add_css('posttime','.article_r .link_postdate::text')
         l.add_css('views','.article_r .link_view::text')
-        return l.load_item()
+        yield l.load_item()
 
 

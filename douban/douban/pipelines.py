@@ -6,7 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 from sqlalchemy.orm import sessionmaker
-from models import  Douban,create_new_table,db_connect
+from .models import  Douban,create_new_table,db_connect
 
 class DoubanPipeline(object):
     def __init__(self):

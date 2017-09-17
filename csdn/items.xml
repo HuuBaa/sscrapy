@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+    <item>
+        <posttime>2017-08-05 10:36</posttime>
+        <title>
+            Git常用操作系列（4）
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/76707871</link>
+        <views>803人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-08-06 19:03</posttime>
+        <title>
+            Flask——请求响应循环
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/76788677</link>
+        <views>787人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-08-09 20:51</posttime>
+        <title>
+            Flask——表单类
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77016856</link>
+        <views>774人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-08-11 16:47</posttime>
+        <title>
+            Git——合并多个commit
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77100065</link>
+        <views>775人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-08-16 16:40</posttime>
+        <title>
+            Flask——itsdangerous验证邮箱
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77252870</link>
+        <views>775人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-08-17 21:19</posttime>
+        <title>
+            Flask——用户权限管理
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77341365</link>
+        <views>804人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-08-24 19:23</posttime>
+        <title>
+            Python——format字符串格式化
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77540117</link>
+        <views>775人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-08-31 18:59</posttime>
+        <title>
+            Python——代码覆盖报告covera
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77751109</link>
+        <views>76人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-08-31 18:59</posttime>
+        <title>
+            Python——os.exec**系列用法
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77751119</link>
+        <views>86人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-09-09 10:22</posttime>
+        <title>
+            Scrapy——抓取图片
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77907006</link>
+        <views>41人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-09-10 20:48</posttime>
+        <title>
+            Scrapy——模拟登陆爬取github issues
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77925115</link>
+        <views>36人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-09-11 09:04</posttime>
+        <title>
+            Ubuntu——子进程已安装错误代码1
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77929465</link>
+        <views>23人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-09-11 09:32</posttime>
+        <title>
+            Ubuntu——mysql5.7修改utf-8
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77929727</link>
+        <views>44人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-09-11 17:15</posttime>
+        <title>
+            Scrapy——流程以及middleware中间件
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77935353</link>
+        <views>30人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-09-12 22:10</posttime>
+        <title>
+            Redis——数据持久化AOF与RDB
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/77950423</link>
+        <views>29人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-06-05 08:21</posttime>
+        <title>
+            Python——HTMLParser
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/72863763</link>
+        <views>786人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-06-05 10:19</posttime>
+        <title>
+            Python——XML解析
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/72864613</link>
+        <views>772人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-06-07 20:40</posttime>
+        <title>
+            Python——生成激活码
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/72903692</link>
+        <views>882人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-06-13 21:03</posttime>
+        <title>
+            Python——生成激活码并存入MySQL
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/73195309</link>
+        <views>756人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-06-15 20:25</posttime>
+        <title>
+            Python——使用SQLAlchemy
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/73302240</link>
+        <views>765人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-15 20:58</posttime>
+        <title>
+            Python——使用virtualenv
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/75193903</link>
+        <views>759人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-19 10:18</posttime>
+        <title>
+            ubuntu——安装python3.6和sublime text3
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/75339577</link>
+        <views>819人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-19 10:22</posttime>
+        <title>
+            ubuntu16.04——设置python3为默认及库的安装
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/75339934</link>
+        <views>849人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-19 13:19</posttime>
+        <title>
+            Python——图片转字符画
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/75367157</link>
+        <views>797人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-22 12:31</posttime>
+        <title>
+            Python——解析命令行参数docopt模块
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/75727891</link>
+        <views>799人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-26 13:32</posttime>
+        <title>
+            Python——pyquery解析html
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/76142842</link>
+        <views>812人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-28 18:12</posttime>
+        <title>
+            Python——百度语音识别api
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/76274157</link>
+        <views>998人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-30 19:15</posttime>
+        <title>
+            Git常用操作系列（1）
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/76401593</link>
+        <views>801人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-31 21:19</posttime>
+        <title>
+            Git常用操作系列（3）
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/76472737</link>
+        <views>797人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-07-30 19:38</posttime>
+        <title>
+            Git常用操作系列（2）
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/76402710</link>
+        <views>803人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-02-27 03:38</posttime>
+        <title>
+            宝宝来了
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/57711183</link>
+        <views>866人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-03-03 08:37</posttime>
+        <title>
+            css权威指南——link
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/60087443</link>
+        <views>844人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-03-03 18:33</posttime>
+        <title>
+            css权威指南——特殊选择器
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/60144653</link>
+        <views>997人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-03-06 13:14</posttime>
+        <title>
+            css权威指南——优先级
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/60574409</link>
+        <views>918人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-03-09 21:52</posttime>
+        <title>
+            双飞翼布局
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/60973200</link>
+        <views>781人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-03-10 18:00</posttime>
+        <title>
+            百度IFE前端学院小记
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/61202490</link>
+        <views>842人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-06-02 14:44</posttime>
+        <title>
+            Python——闭包和装饰器
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/72844246</link>
+        <views>866人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-03-21 21:12</posttime>
+        <title>
+            Flex布局 小记
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/64514695</link>
+        <views>789人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-04-01 13:41</posttime>
+        <title>
+            js创建对象 之 工厂模式,构造函数模式
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/68943601</link>
+        <views>863人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-04-01 15:12</posttime>
+        <title>
+            js数据类型 ——引用类型（Array）.1/3
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/68944783</link>
+        <views>853人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-04-01 16:50</posttime>
+        <title>
+            js数据类型 ——引用类型（Array）.2/3
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/68946063</link>
+        <views>817人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-04-02 14:30</posttime>
+        <title>
+            js数据类型 ——引用类型（Array）.3/3
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/68952048</link>
+        <views>849人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-04-06 09:43</posttime>
+        <title>
+            radio select 样式修改CSS
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/69372270</link>
+        <views>924人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-04-10 20:49</posttime>
+        <title>
+            CSS3之animation、transition
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/70036671</link>
+        <views>768人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-04-22 19:58</posttime>
+        <title>
+            Height ，Width 以及 鼠标位置
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/70474181</link>
+        <views>779人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-05-09 20:43</posttime>
+        <title>
+            new运算符
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/71506856</link>
+        <views>778人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-05-10 14:43</posttime>
+        <title>
+            node.js 爬虫csdn个人博客主界面
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/71525495</link>
+        <views>803人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-05-10 16:03</posttime>
+        <title>
+            LESS 简单基础运用
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/71542659</link>
+        <views>762人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-05-29 20:31</posttime>
+        <title>
+            Python——切片
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/72803802</link>
+        <views>827人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-05-31 19:48</posttime>
+        <title>
+            Python——序列化
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/72823249</link>
+        <views>765人阅读</views>
+    </item>
+    <item>
+        <posttime>2017-05-31 21:12</posttime>
+        <title>
+            Python——多进程
+        </title>
+        <link>http://blog.csdn.net/qq_35037977/article/details/72823983</link>
+        <views>794人阅读</views>
+    </item>
+</items>
