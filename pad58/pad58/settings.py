@@ -90,6 +90,6 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-DOWNLOAD_DELAY = 1
+DOWNLOAD_DELAY = 0.2
 
 ROBOTSTXT_OBEY = False
