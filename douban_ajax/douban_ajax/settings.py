@@ -99,3 +99,4 @@ class CustomJsonLinesItemExporter(JsonLinesItemExporter):
 FEED_EXPORTERS = {  
     'json': 'douban_ajax.settings.CustomJsonLinesItemExporter',  
 } 
+
