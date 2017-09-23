@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import scrapy
 import json
 from scrapy import Request
