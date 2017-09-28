@@ -11,7 +11,7 @@ from redis import Redis
 class SecretPipeline(object):
     def process_item(self, item, spider):
         r=Redis()
-        if  item['link']==None and 'htm_data' not in item['link']:
+        if  item['link']==None or 'htm_data' not in item['link']:
             raise DropItem('drop useless item')
         r.rpush('secret:hei',item['link']) 
         return item
